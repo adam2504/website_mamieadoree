@@ -1,41 +1,41 @@
 import { Card, CardContent } from "@/components/ui/card";
-import baguetteImg from "@/assets/product-baguette.jpg";
-import countryBreadImg from "@/assets/product-country-bread.jpg";
-import croissantImg from "@/assets/product-croissant.jpg";
-import multigrainImg from "@/assets/product-multigrain.jpg";
-import viennoiseriesImg from "@/assets/product-viennoiseries.jpg";
-import pastriesImg from "@/assets/product-pastries.jpg";
+import painTradition from "@/assets/painTradition.jpg";
+import painCampagne from "@/assets/painCampagne.jpg";
+import croissants from "@/assets/croissants.jpg";
+import painCereales from "@/assets/painCereales.jpg";
+import viennoiseries from "@/assets/viennoiseries.jpg";
+import patisseries from "@/assets/patisseries.jpg";
 
 const products = [
   {
     name: "Pain Tradition",
     description: "Baguette croustillante à l'ancienne",
-    image: "https://i.ibb.co/zHfCPJz8/IMG-6764.jpg",
+    image: painTradition,
   },
   {
     name: "Pain de Campagne",
     description: "Pain rustique au levain naturel",
-    image: "https://i.ibb.co/FkR8FJXx/IMG-6772.jpg",
+    image: painCampagne,
   },
   {
     name: "Croissants Pur Beurre",
     description: "Feuilletés dorés et fondants",
-    image: "https://i.ibb.co/4ZjmBf1n/IMG-6771.jpg",
+    image: croissants,
   },
   {
     name: "Pain aux Céréales",
     description: "Riche en graines et fibres",
-    image: "https://i.ibb.co/5xKVWqfJ/IMG-6761.jpg",
+    image: painCereales,
   },
   {
     name: "Viennoiseries",
     description: "Pains au chocolat, brioches et chaussons",
-    image: "https://i.ibb.co/zHSr1JTg/IMG-6773.jpg",
+    image: viennoiseries,
   },
   {
     name: "Pâtisseries",
     description: "Tartes, éclairs et douceurs sucrées",
-    image: "https://i.ibb.co/zht1DGJD/IMG-6765.jpg",
+    image: patisseries,
   },
 ];
 

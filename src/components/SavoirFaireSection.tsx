@@ -1,5 +1,5 @@
 import { Wheat, Clock, Flame } from "lucide-react";
-import bakerImage from "@/assets/baker-hands.jpg";
+import bakerImage from "@/assets/IMG_6770.jpg";
 
 const features = [
   {
@@ -60,7 +60,7 @@ const SavoirFaireSection = () => {
           <div className="order-1 lg:order-2">
             <div className="rounded-2xl overflow-hidden shadow-2xl w-[400px] h-[450px]">
               <img
-                src="https://i.ibb.co/VY6gbMXG/IMG-6770.jpg"
+                src={bakerImage}
                 alt="Artisan boulanger au travail à Saint-André-de-Sangonis"
                 loading="lazy"
                 className="w-full h-full object-cover"

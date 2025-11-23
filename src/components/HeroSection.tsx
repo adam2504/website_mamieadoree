@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.jpg";
 import { Phone } from "lucide-react";
+import mamieadoree from "@/assets/mamieadoree.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -19,9 +20,9 @@ const HeroSection = () => {
         />
       </div>
 
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://i.ibb.co/ds10RMvP/IMG-0270.jpg')" }}
+        style={{ backgroundImage: `url(${mamieadoree})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-transparent" />
       </div>
