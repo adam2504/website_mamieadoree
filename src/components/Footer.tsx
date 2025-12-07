@@ -41,6 +41,15 @@ const Footer = () => {
                     Hérault, Occitanie
                   </address>
                 </div>
+                <div className="flex items-center gap-3 ml-8">
+                  <Phone className="w-5 h-5 text-accent flex-shrink-0" />
+                  <a 
+                    href="tel:0499669156"
+                    className="hover:text-accent transition-colors font-semibold"
+                  >
+                    04 99 66 91 56
+                  </a>
+                </div>
               </div>
             </div>
 
